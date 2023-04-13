@@ -31,6 +31,8 @@ class AuthController extends Controller
 
     public function storeJwt(Request $request, $data)
     {
+        dd($request->all(), $data);
+
         try {
             $token_enc = Crypt::encryptString($data->access_token);
             $request->session()->put(['token' => $token_enc, 'email' => $data->data->email, 'level' => $data->data->level]);

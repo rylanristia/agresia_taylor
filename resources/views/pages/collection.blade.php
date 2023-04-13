@@ -37,7 +37,7 @@
                         <div class="col-lg-3 col-md-4 col-sm-2">
                             <div class="collection-card text-center mx-2">
                                 <div class="collection-image">
-                                    <img src="data:image/jpeg;base64,{{ $item->image }} " alt="" width="200">
+                                    <img src="data:image/jpeg;base64, {{ $item->image }} " alt="" width="200">
                                 </div>
                                 <p class="text-green mt-2">{{ $item->name }}</p>
                                 <div class="btn btn-make-this-one bg-green text-white rounded-0">Make this one</div>

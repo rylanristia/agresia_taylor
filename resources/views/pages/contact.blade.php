@@ -44,5 +44,10 @@
             </div>
         </div>
     </div>
+
+    <form action="" method="" enctype="multipart/form-data">
+
+
+    </form>
     <!-- end of contact section  -->
 @endsection
